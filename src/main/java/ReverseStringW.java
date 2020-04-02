@@ -29,9 +29,7 @@ public class ReverseStringW
 
 
     public static void main(String[] args) {
-       if (args[0]==args[1]){
-           System.out.println(true);
-       }
+
         String str="i am learning automation";
         //ReverseStringW dd=new ReverseStringW();
         System.out.print(ReverseStringW.reverseWord(str));
