@@ -3,6 +3,7 @@ public class ReverseStringW
 
 
    public static String reverseWord(String str) {
+       int a=1;
         if(str!=null) {
 
             String[] w = str.split(" ");
@@ -29,7 +30,9 @@ public class ReverseStringW
 
 
     public static void main(String[] args) {
-
+if (args[1]==args[0]){
+    System.out.println(true);
+}
         String str="i am learning automation";
         //ReverseStringW dd=new ReverseStringW();
         System.out.print(ReverseStringW.reverseWord(str));

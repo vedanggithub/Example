@@ -1,2 +1,0 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<BugCollection version='3.0.1' threshold='low' effort='max'><file classname='ReverseStringW'><BugInstance type='SBSC_USE_STRINGBUFFER_CONCATENATION' priority='Normal' category='PERFORMANCE' message='ReverseStringW.reverseWord(String) concatenates strings using + in a loop' lineNumber='17'/></file><Error></Error><Project><SrcDir>/Users/innovapath/Downloads/JavaCodes-master/Example/src/main/java</SrcDir><SrcDir>/Users/innovapath/Downloads/JavaCodes-master/Example/src/test/java</SrcDir></Project></BugCollection>
